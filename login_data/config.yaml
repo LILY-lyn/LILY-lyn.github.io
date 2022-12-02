@@ -1,0 +1,17 @@
+cookie:
+  expiry_days: 0
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    '12':
+      email: '12'
+      name: '12'
+      password: $2b$12$L.sISSFRzgqt/JjiNT4aFu29/iIoWarkbD4yONGmD.RjudQoG5ewy
+    '20201105069':
+      email: 791496609@qq.com
+      name: lily
+      password: $2b$12$UyTcGIM0sacWTJWgevHR9.KESRFh09VNXn9fXOr/ysVWFqGHndr1S
+preauthorized:
+  emails:
+  - melsby@gmail.com
