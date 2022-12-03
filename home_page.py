@@ -50,7 +50,7 @@ def app():
         with left_column:
             st.write("##")
             st.write("##")
-            image = Image.open('images/air1.jpg')
+            image = Image.open('LILY-lyn.github.io/images/air1.jpg')
             st.image(image, caption='全空气系统示意图', use_column_width = True)
         with right_column:
             st.subheader(" 全空气空调系统 ")
@@ -92,7 +92,7 @@ def app():
             st.write("##")
             st.write("##")
             st.write("##")
-            image = Image.open('images/air2.jpg')
+            image = Image.open('LILY-lyn.github.io/images/air2.jpg')
             st.image(image, caption='空调系统房间末端示意图', use_column_width = True)
 
 
