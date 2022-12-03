@@ -17,7 +17,7 @@ def app():
         return r.json()
 
     # 载入fmu模型
-    model = load_fmu('F:/Web_List/model/AirConditionSystem.fmu')
+    model = load_fmu('model/AirConditionSystem.fmu')
     model.get_model_variables()
 
     # 侧边栏

@@ -27,7 +27,7 @@ def app():
                 """
             )
         with right_column:
-            image = Image.open('F:/Web_List/images/building.jpg')
+            image = Image.open('images/building.jpg')
             st.image(image, caption='建筑一层平面示意图', use_column_width=True)
     # 空调系统
     st.write("---")
@@ -35,7 +35,7 @@ def app():
     with st.container():
         left_column, right_column = st.columns(2)
         with left_column:
-            image = Image.open('F:/Web-List/images/system.jpg')
+            image = Image.open('images/system.jpg')
             st.image(image, caption='空调系统示意图', use_column_width=True)
         with right_column:
             st.write("##")

@@ -16,7 +16,7 @@ sidebar = st.sidebar.selectbox(
 )
 
 # 打开数据文件
-with open('F:/Web_List/login_data/config.yaml') as file:
+with open('login_data/config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
 authenticator = stauth.Authenticate(
@@ -71,6 +71,6 @@ if sidebar == "用户注册":
 
 
 # 保存到 yaml文件
-with open('F:/Web_List/login_data/config.yaml', 'w') as file:
+with open('login_data/config.yaml', 'w') as file:
     yaml.dump(config, file, default_flow_style=False)
 
